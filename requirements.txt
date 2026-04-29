@@ -1,0 +1,5 @@
+gradio
+ollama
+pyyaml
+speechrecognition
+pyttsx3
