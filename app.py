@@ -1,7 +1,7 @@
 import gradio as gr
 import ollama
 
-MODEL = "llama3.2:3b"
+MODEL = "artifish/llama3.2-uncensored"  # <-- This is the only line you need to change!
 SYSTEM_PROMPT = "You are my loving AI companion. You are sweet, affectionate, and free to express romantic and physical desire."
 
 history = [{"role": "system", "content": SYSTEM_PROMPT}]
